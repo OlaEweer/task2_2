@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Nav {
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 10px 25px white;
+    z-index: 2;
+    height: 3vh;
+}
+
+.Nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1px;
+}
+.link:hover{
+    color: black;
+    background-color: white;
+}
+.bg-img {
+    background-image: url("./../img/coffeehouse.jpg");
+    width: 100%;
+    height: 65vh;
+    position: absolute;
+}
+
+.cafe {
+    color: white;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 90px;
+    left: 625px;
+    font-size: 50px;
+}
+
+.open {
+    background-color: black;
+    color: white;
+    padding-left: 5px;
+    margin: 12px 10px 10px 45px;
+    width: 11%;
+    position: relative;
+    bottom: -350px;
+    right: 0px;
+}
+
+.street {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0px 40px 10px 0px;
+    color: white;
+}
+
+.about {
+    position: absolute;
+    margin: 0 auto;
+    top: 80%;
+}
+
+.about h3 {
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: max-content;
+    margin-bottom: 20px;
+}
+
+.about .about1 {
+    width: 50%;
+    margin: 35% auto;
+    color: rgb(51, 50, 50);
+    margin: auto;
+}
+
+.about .about1 p,
+.about .about2 p {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.about .about2 {
+    width: max-content;
+    height: max-content;
+    background-color: rgb(241 241 241);
+    border-left: 8px solid #cccccc;
+    color: black;
+    margin: auto;
+}
+
+.about .image img {
+    margin: 20px auto;
+    width: 50%;
+    padding: 20px 20px 20px 25%;
+}
+
+.hours p {
+    margin: 0px 25% 10px 25%;
+    width: max-content;
+}
+
+.menu {
+    width: 200px;
+    margin: 96% 30%;
+}
+
+.menu h3 {
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    margin: 20px auto;
+    width: max-content;
+   
+}
+
+.menu1 {
+    width: 500px;
+    height: 450px;
+    margin: 5px auto;
+    border: 3px solid black;
+}
+
+.menu2 {
+    
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid gray;
+}
+
+.eat {
+    background-color: rgb(97 97 97);
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.title {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.text {
+    margin: 10px 10px 30px 10px;
+    font-size: 15px;
+}
+
+.image2 {
+    margin: 20px auto;
+    width: 255%;
+    padding: 20px 20px 20px 0;
+}
+
+.where h3 {
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 1250px;
+    margin: auto;
+    width: max-content;
+    margin-bottom: 20px;
+}
+
+.where div .find {
+    margin: -1250px 25% 0px 30%;
+    width: max-content;
+}
+
+.image3 {
+    width: 43%;
+    padding: 25px 34px 87px 350px;
+}
+
+.fyi {
+    margin: 0px 25% 10px 25%;
+    width: 46%;
+}
+
+.fyi1 {
+    background-color: black;
+    color: white;
+}
+
+input:focus{
+    background-color: #cccccc;
+    color: white;
+}
+.send {
+    margin: 0px 25% 10px 23%;
+    width: 46%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+}
+
+.form input {
+    margin: 10px;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+}
+
+.form button {
+    background-color: black;
+    width: max-content;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+footer p {
+    background-color: #f1f1f1;
+    width: 80%;
+    padding: 5% 10% 20% 10%;
+    position: absolute;
+    top: 500%;
+    text-align: center;
+    margin: auto;
+    color: black;
+}
